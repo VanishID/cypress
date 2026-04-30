@@ -33,7 +33,7 @@
 2. Выполнить команды:
 ```
 npx cypress run --spec cypress/e2e/loginpassword.cy.js --browser chrome
-npx cypress run --spec cypress/e2e/avatr.cy.js --browser chrome
+npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 ```
 Ожидаемый результаты: получим отчет о прохождении тестов.
 ![image](https://github.com/VanishID/my_cypress/blob/main/results1.png)
