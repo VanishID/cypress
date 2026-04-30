@@ -1,8 +1,7 @@
-<img width="1674" height="682" alt="image" src="https://github.com/user-attachments/assets/ec775ef9-ff02-4f56-98e3-d639b07ef9fe" /><h2>UI Автотесты на фреймворке Cypress</h2>
+<h2>UI Автотесты на фреймворке Cypress</h2>
 
 > **Статус проекта:**
 > Публичный проект: https://login.qa.studio/
->                   https://pokemonbattle.ru/
 > 
 > 🟢 Поддерживается (активный) 
 
@@ -13,21 +12,33 @@
 * Авторизация с верным паролем и верным логином
 * Авторизация c верным логином и неверным паролем
 * Проверка работы валиадации на наличие @ в логине
-* Проверка восстановления пароля
+* Проверка флоу восстановления пароля
 * Проверка приведения к строчным буквам в логине
 
+
+## Детали реализации
+
+1. baseUrl вынесен в переменные конфига
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png)
+
+2. Применение хуков beforeEach и afterEach
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
+
+3. Переменные данные для авторизации вынесены в отдельный файл
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
+
+4. Каждая страница описана в формате объекта с локаторами
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
 2. Перейти в терминале в директорию проекта
-2. Выполнить команды:
+2. Выполнить команду:
 ```
-npx cypress run --spec cypress/e2e/loginpassword.cy.js --browser chrome
-npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
-
+npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://github.com/VanishID/cypress/blob/main/test.png)
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -37,14 +48,12 @@ npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 4. В терминале в папке с проектом запустить npm `npm i`
 5. В терминале в папке с проектом запустить npm `npx cypress open`
 6. Выбрать в Cypress UI E2E тестирование и браузер Google Chrome
-7. Выбрать спеки:
-   -longpassword
-   -avatar
-   
+7. Выбрать спеку lesson_locators
+
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://github.com/VanishID/cypress/blob/main/ui.png)
+![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
 
 
 ## Автор
 
-Иван Депутатов ([Telegram](https://t.me/IvanD_QA), [Email](mailto:wanish666@yandex.ru))
+Герман Дольников ([@dolnikov](https://t.me/dolnikov))
