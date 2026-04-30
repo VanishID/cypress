@@ -50,7 +50,8 @@ npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 7. Выбрать спеки avatar или loginpassword
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://github.com/VanishID/my_cypress/blob/main/ui.png)
+<img width="1200" height="891" alt="Image" src="https://github.com/user-attachments/assets/a53bb5c3-f2d7-44ba-a4da-16fc122795e9" />
+
 
 
 ## Автор
