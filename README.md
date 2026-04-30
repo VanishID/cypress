@@ -19,26 +19,25 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png)
+![image](https://github.com/VanishID/my_cypress/blob/main/settings.png)
 
-2. Применение хуков beforeEach и afterEach
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
+2. Переменные данные для авторизации вынесены в отдельный файл
+![image](https://github.com/VanishID/my_cypress/blob/main/per.png)
 
-3. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
-
-4. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
+3. Каждая страница описана в формате объекта с локаторами
+![image](https://github.com/VanishID/my_cypress/blob/main/locator.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
 2. Перейти в терминале в директорию проекта
-2. Выполнить команду:
+2. Выполнить команды:
 ```
-npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
+npx cypress run --spec cypress/e2e/loginpassword.cy.js --browser chrome
+npx cypress run --spec cypress/e2e/avatr.cy.js --browser chrome
 ```
-Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
+Ожидаемый результаты: получим отчет о прохождении тестов.
+![image](https://github.com/VanishID/my_cypress/blob/main/results1.png)
+![image](https://github.com/VanishID/my_cypress/blob/main/test.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -51,9 +50,9 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
+![image](https://github.com/VanishID/my_cypress/blob/main/ui.png)
 
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Иван Депутатов  ([Telegram](https://t.me/IvanD_QA), [Email](mailto:wanish666@yandex.ru))
