@@ -22,7 +22,7 @@
 <img width="1678" height="801" alt="Image" src="https://github.com/user-attachments/assets/6512ea0c-a33f-4e92-8763-9c9bffd51dd5" />
 
 2. Переменные данные для авторизации вынесены в отдельный файл
-<img width="1678" height="801" alt="Image" src="https://github.com/user-attachments/assets/3134bd22-e9fe-492d-9780-17c4c649f272" />
+<img width="1680" height="891" alt="Image" src="https://github.com/user-attachments/assets/0e8fba9d-7f4b-4191-8b21-5a8764d28d10" />
 
 3. Каждая страница описана в формате объекта с локаторами
 ![image](https://github.com/VanishID/my_cypress/blob/main/locator.png)
