@@ -19,7 +19,7 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://github.com/VanishID/my_cypress/blob/main/settings.png)
+<img width="1678" height="801" alt="Image" src="https://github.com/user-attachments/assets/6512ea0c-a33f-4e92-8763-9c9bffd51dd5" />
 
 2. Переменные данные для авторизации вынесены в отдельный файл
 ![image](https://github.com/VanishID/my_cypress/blob/main/per.png)
