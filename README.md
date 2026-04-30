@@ -47,7 +47,7 @@ npx cypress run --spec cypress/e2e/avatr.cy.js --browser chrome
 4. В терминале в папке с проектом запустить npm `npm i`
 5. В терминале в папке с проектом запустить npm `npx cypress open`
 6. Выбрать в Cypress UI E2E тестирование и браузер Google Chrome
-7. Выбрать спеку lesson_locators
+7. Выбрать спеки avatar или loginpassword
 
 Ожидаемый результат: получим отчет о прохождении тестов.
 ![image](https://github.com/VanishID/my_cypress/blob/main/ui.png)
