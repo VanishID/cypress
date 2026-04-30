@@ -47,4 +47,4 @@ npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 
 ## Автор
 
-Иван Депутатов ([@dolnikov](https://t.me/dolnikov))
+Иван Депутатов ([Telegram](https://t.me/IvanD_QA), [Email](mailto:wanish666@yandex.ru))
