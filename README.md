@@ -36,8 +36,8 @@ npx cypress run --spec cypress/e2e/loginpassword.cy.js --browser chrome
 npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 ```
 Ожидаемый результаты: получим отчет о прохождении тестов.
-![image](https://github.com/VanishID/my_cypress/blob/main/results1.png)
-![image](https://github.com/VanishID/my_cypress/blob/main/test.png)
+<img width="1168" height="695" alt="Image" src="https://github.com/user-attachments/assets/01c86607-88b8-488d-8d9e-4ebe093148a6" />
+<img width="1170" height="733" alt="Image" src="https://github.com/user-attachments/assets/3e9c0790-404e-42df-b728-c4e0b2ea07b9" />
 
 
 ## Локальный запуск через Cypress UI
