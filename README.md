@@ -25,7 +25,7 @@
 <img width="1680" height="891" alt="Image" src="https://github.com/user-attachments/assets/0e8fba9d-7f4b-4191-8b21-5a8764d28d10" />
 
 3. Каждая страница описана в формате объекта с локаторами
-![image](https://github.com/VanishID/my_cypress/blob/main/locator.png)
+<img width="1686" height="892" alt="Image" src="https://github.com/user-attachments/assets/d5286e75-bce5-4c6b-b6aa-ba9d32945383" />
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
