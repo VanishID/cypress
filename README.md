@@ -42,9 +42,9 @@ npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
    -avatar
    
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
+![image](https://github.com/VanishID/cypress/blob/main/ui.png)
 
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Иван Депутатов ([@dolnikov](https://t.me/dolnikov))
