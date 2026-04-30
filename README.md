@@ -2,6 +2,7 @@
 
 > **Статус проекта:**
 > Публичный проект: https://login.qa.studio/
+>                   https://pokemonbattle.ru/
 > 
 > 🟢 Поддерживается (активный) 
 
@@ -22,7 +23,7 @@
 2. Выполнить команды:
 ```
 npx cypress run --spec cypress/e2e/loginpassword.cy.js --browser chrome
-npx cypress run --spec cypress/e2e/avatar.cy.cy.js --browser chrome
+npx cypress run --spec cypress/e2e/avatar.cy.js --browser chrome
 
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
