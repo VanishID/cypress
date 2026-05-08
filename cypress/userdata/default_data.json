@@ -1,0 +1,9 @@
+{
+	"login":"логин",
+	"login_avatar":"логин",
+	"password":"пароль",
+	"password_avatar":"пароль",
+	"login_validation":"логин",
+	"wrong_password":"неверный пароль",
+	"LOGIN":"логин большими буквами"
+}
