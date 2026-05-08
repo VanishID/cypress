@@ -26,7 +26,7 @@
 <img width="1919" height="880" alt="Image" src="https://github.com/user-attachments/assets/21b768ed-4cce-4a98-a2e5-d37884664f1f" />
 
 3. Каждая страница описана в формате объекта с локаторами
-<img width="1686" height="892" alt="Image" src="https://github.com/user-attachments/assets/d5286e75-bce5-4c6b-b6aa-ba9d32945383" />
+<img width="1918" height="823" alt="Image" src="https://github.com/user-attachments/assets/cdf3796c-1406-4d43-b69a-6eb30427f679" />
 
 4. Использование хуков beforeEach и afterEach
 <img width="1572" height="199" alt="Image" src="https://github.com/user-attachments/assets/6f804fa6-40b0-42d2-bae5-761311a385b7" />
