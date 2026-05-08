@@ -28,6 +28,9 @@
 3. Каждая страница описана в формате объекта с локаторами
 <img width="1686" height="892" alt="Image" src="https://github.com/user-attachments/assets/d5286e75-bce5-4c6b-b6aa-ba9d32945383" />
 
+4. Использование хуков beforeEach и afterEach
+<img width="1572" height="199" alt="Image" src="https://github.com/user-attachments/assets/6f804fa6-40b0-42d2-bae5-761311a385b7" />
+
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
 2. Перейти в терминале в директорию проекта
